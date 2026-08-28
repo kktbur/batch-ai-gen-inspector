@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
+![Batch AI Gen Inspector cover](assets/batch-ai-gen-inspector-cover.png)
+
 批量检查 AI 生成图片的交付问题，让你只人工查看真正需要复核的图片。
 
 它不负责生成图片，也不主观判断“好不好看”。当前版本检查文件损坏、尺寸、比例、文件大小、空白/透明异常、OCR 文字与数字、安全边距、重复图片，并进一步检查模糊度、块状压缩、曝光裁切、文字可读性和可能的主体裁切。

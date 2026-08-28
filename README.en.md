@@ -2,6 +2,8 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
+![Batch AI Gen Inspector cover](assets/batch-ai-gen-inspector-cover.png)
+
 Preflight batches of AI-generated images and review only the assets that actually need attention.
 
 This project does not generate images or assign subjective aesthetic scores. It checks corrupt files, dimensions, aspect ratio, file size, blank or transparent output, OCR text and numbers, text-safe margins, duplicates, blur, block compression, exposure clipping, text readability, and possible subject cropping.
