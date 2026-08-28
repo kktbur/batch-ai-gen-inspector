@@ -1,6 +1,6 @@
 # Batch AI Gen Inspector
 
-[中文](README.md)
+[简体中文](README.md) | English
 
 Preflight batches of AI-generated images and review only the assets that actually need attention.
 
@@ -26,9 +26,15 @@ Each run creates:
 
 Source images are read-only. They are never renamed, overwritten, moved, or deleted. OCR runs locally; images and extracted text are not uploaded.
 
-## Install
+## Quick Start
 
-Python 3.10–3.12 is recommended.
+Install as an Agent Skill:
+
+```bash
+npx skills add kktbur/batch-ai-gen-inspector
+```
+
+You can also clone the repository and run the CLI directly. Python 3.10–3.12 is recommended.
 
 ```bash
 python -m venv .venv
@@ -59,10 +65,6 @@ Without `--config`, only generic default rules are used. Reports default to `bat
 Exit codes: `0` means no failed assets, `1` means inspection completed with at least one FAIL, and `2` means a configuration or runtime error.
 
 See [configuration](references/configuration.md) and [inspection rules](references/rules.md) for details.
-
-## Deliberately out of scope for phase one
-
-Person or product consistency, brand style, aesthetic scoring, reference drift, QR decoding, automatic fixes, selective retry, SVG, video, PowerPoint, and PDF. Edge activity and subject-crop findings are review signals, not proof that a specific person or product is clipped.
 
 ## Tests
 
