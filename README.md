@@ -1,6 +1,6 @@
 # Batch AI Gen Inspector
 
-简体中文 | [English](README.en.md)
+[简体中文](README.md) | [English](README.en.md)
 
 批量检查 AI 生成图片的交付问题，让你只人工查看真正需要复核的图片。
 
