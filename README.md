@@ -1,6 +1,6 @@
 # Batch AI Gen Inspector
 
-[English](README.en.md)
+简体中文 | [English](README.en.md)
 
 批量检查 AI 生成图片的交付问题，让你只人工查看真正需要复核的图片。
 
@@ -26,9 +26,15 @@
 
 原始图片只读，不会被改名、覆盖、移动或删除。OCR 在本机运行，图片和识别文字不会上传。
 
-## 安装
+## Quick Start
 
-需要 Python 3.10–3.12。推荐使用项目独立虚拟环境。
+安装为 Agent Skill：
+
+```powershell
+npx skills add kktbur/batch-ai-gen-inspector
+```
+
+也可以克隆仓库后直接运行。需要 Python 3.10–3.12，推荐使用项目独立虚拟环境。
 
 Windows PowerShell 7：
 
@@ -69,10 +75,6 @@ Agent 会把自然语言要求转换成临时 JSON 配置，运行检查，并�
 - `2`：配置或运行错误。
 
 完整配置见 [references/configuration.md](references/configuration.md)，规则说明见 [references/rules.md](references/rules.md)。
-
-## 第一阶段明确不做
-
-人物或商品一致性、品牌风格、审美评分、参考图漂移、二维码扫描、自动修复、选择性重生成、SVG、视频、PPT 和 PDF。边缘活动和主体裁切均为人工复核提示，不代表工具已经识别出具体人物或商品。
 
 ## 测试
 
