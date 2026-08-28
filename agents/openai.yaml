@@ -1,0 +1,8 @@
+interface:
+  display_name: "Batch AI Gen Inspector"
+  short_description: "Inspect batches of AI-generated images before delivery"
+  default_prompt: "Use $batch-ai-gen-inspector to inspect this folder of AI-generated images and create a bilingual QA report."
+
+policy:
+  allow_implicit_invocation: true
+
