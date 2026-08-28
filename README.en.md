@@ -1,6 +1,6 @@
 # Batch AI Gen Inspector
 
-[简体中文](README.md) | English
+[简体中文](README.md) | [English](README.en.md)
 
 Preflight batches of AI-generated images and review only the assets that actually need attention.
 
